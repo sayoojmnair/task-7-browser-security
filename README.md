@@ -19,11 +19,16 @@ To learn how to spot potentially harmful browser extensions, evaluate their perm
 - Screenshot of the extension list after removal.
 
 ## ⚠️ Findings
-- Found an extension with unnecessary permissions that could pose a security risk.
-- Removed it to prevent possible misuse such as:
-  - Reading browsing data
-  - Injecting malicious ads
-  - Tracking user activity
+
+- Found the following extensions:
+  - **Free VPN for Chrome – VPN Proxy VeePN** → VPN extensions can sometimes log browsing activity. Kept for now, but noted as a potential risk if not from a trusted developer.
+  - **TeraBox Download Assistant** → Removed, as it requested broad permissions related to downloads and browsing activity.
+  - **YouGov Safe** → Removed, since it tracks browsing activity in exchange for rewards, which poses a privacy concern.
+  - **Google Docs Offline** and **McAfee WebAdvisor** → Safe and kept.
+
+## ✅ Actions Taken
+- Removed **TeraBox Download Assistant** and **YouGov Safe** to reduce privacy and security risks.
+- Kept **Free VPN for Chrome – VPN Proxy VeePN**, but will monitor and consider replacing with a trusted standalone VPN application.
 
 ## 📝 Key Learnings
 - Browser extensions can pose security risks if they have broad permissions (e.g., “Read and change all your data on all websites”).
