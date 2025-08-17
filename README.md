@@ -16,7 +16,6 @@ To learn how to spot potentially harmful browser extensions, evaluate their perm
 
 ## 📸 Screenshots
 - Screenshot of all installed extensions.
-- Screenshot of suspicious extension before removal.
 - Screenshot of the extension list after removal.
 
 ## ⚠️ Findings
